@@ -60,3 +60,13 @@ function showConfetti() {
     `;
     document.head.appendChild(style);
 }
+
+function moveButton() {
+    const noBtn = document.getElementById("no-btn");
+    const newX = Math.random() * (window.innerWidth - noBtn.offsetWidth);
+    const newY = Math.random() * (window.innerHeight - noBtn.offsetHeight);
+    
+    noBtn.style.position = "absolute";
+    noBtn.style.left = `${newX}px`;
+    noBtn.style.top = `${newY}px`;
+}
