@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}  
+#auth-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: black;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+#auth-section h2 {
+    color: #d63384;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+#auth-section h3 {
+    color: #d63384;
+    font-size: 20px;
+    margin-top: 10px;
+}
+#question {
+    color: white;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+#disclaimer {
+    color: white;
+    font-size: 10px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    text-align: center;
+}
+#auth-section input {
+    padding: 10px;
+    width: 80%;
+    max-width: 300px;
+    margin-bottom: 10px;
+    border: 2px solid #d63384;
+    border-radius: 5px;
+}
+#auth-section button {
+    background-color: #d63384;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+#auth-section button:hover {
+    background-color: #c2185b;
+}
