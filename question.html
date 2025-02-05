@@ -8,16 +8,26 @@
         <script defer src="script.js"></script>
     </head>
     <body>
-        <div id="valentine-section">
-            <h2 id="valentine-question">
-                Will you be my Valentine?
-            </h2>
-            <button id="yes-btn" onclick="sheSaidYes()">
-                Yes
-            </button>
-            <button id="no-btn" onclick="sheSaidNo()">
-                No
-            </button>
+        <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.3.2/dist/confetti.browser.min.js"></script>
+        <div id="question-container">
+            <span class="heart" style="left: 10%; animation-duration: 4s;">❤️</span>
+            <span class="heart" style="left: 30%; animation-duration: 5s;">💖</span>
+            <span class="heart" style="left: 50%; animation-duration: 6s;">💕</span>
+            <span class="heart" style="left: 70%; animation-duration: 4.5s;">💘</span>
+            <span class="heart" style="left: 90%; animation-duration: 5.5s;">❤️</span>
+            <div id="valentine-section">
+                <h2 id="valentine-question">
+                    Ms. Medina Javer (the future Mrs. Thakur) will you be my Valentine?
+                </h2>
+                <div id="btn-container">
+                    <button id="yes-btn" onclick="sheSaidYes()">
+                        Yes
+                    </button>
+                    <button id="no-btn" onclick="sheSaidNo()">
+                        No
+                    </button>
+                </div>
+            </div>
         </div>
     </body>
 </html>
