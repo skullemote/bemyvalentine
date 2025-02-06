@@ -1,6 +1,6 @@
 document.addEventListener("DOMContentLoaded", function () {
     function checkAnswer() {
-        const correctAnswer = "left"; 
+        const correctAnswer = "talk to me"; 
         const userAnswer = document.getElementById("answer");
         if (!userAnswer) {
             console.error("Element with ID 'answer' not found!");
