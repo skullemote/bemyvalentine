@@ -103,23 +103,6 @@
     text-align: center;
     padding: 20px;
 }
-#loading-screen{
-    display: none;
-    position: fixed;
-    top: 0;
-    left:0;
-    width:100%;
-    height:100vh;
-    background:#ffebef;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    font-family: 'Poppins', sans-serif;
-    color: #d63384;
-    font-size: 22px;
-    font-weight: bold;
-}
 #valentine-section {
     background: rgba(255, 255, 255, 0.8); /* Soft transparency for glassmorphism */
     padding: 30px;

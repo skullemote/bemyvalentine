@@ -22,7 +22,7 @@ document.getElementById("yes-btn").addEventListener("click", function() {
         origin: { y: 0.6 }
     });
     setTimeout(() => {
-        alert("YAY! You said YES! ❤️🎉");
+        alert("YAY! You said YES! ❤️🎉. I LOVE YOU SO MUCH POOKIE PIE");
     }, 500);
 });
 
